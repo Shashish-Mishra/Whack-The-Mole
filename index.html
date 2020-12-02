@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <div class="score-board">
+        <div class="brand">
+            <h1>Whack a mole</h1>
+        </div>
+        <button onclick="start()" id="play" style="display: inline;">Play</button>
+        <button style="display: none;" id="again" onclick="location.reload()">Play AGain</button>
+        <div class="my-score">
+            <h2 style="float:left;">Your Score: </h2>
+            <h2 id="score" style="float:right;">0</h2>
+        </div>
+        <div class="second">
+            <h2 style="float:left;">Seconds-left: </h2>
+            <h2 id="time-left" style="float: right;">30</h2>
+        </div>
+    </div>
+
+
+    <div class="grid" id="grid">
+        <div class="square" id="1">
+            <div class="circle"></div>
+        </div>
+        <div class="square" id="2">
+            <div class="circle"></div>
+        </div>
+        <div class="square" id="3">
+            <div class="circle"></div>
+        </div>
+        <div class="square" id="4">
+            <div class="circle"></div>
+        </div>
+        <div class="square" id="5">
+            <div class="circle"></div>
+        </div>
+        <div class="square" id="6">
+            <div class="circle"></div>
+        </div>
+        <div class="square" id="7">
+            <div class="circle"></div>
+        </div>
+        <div class="square" id="8">
+            <div class="circle"></div>
+        </div>
+        <div class="square" id="9">
+            <div class="circle"></div>
+        </div>
+    </div>
+</body>
+<script src="app.js"></script>
+
+</html>
